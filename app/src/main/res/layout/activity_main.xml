@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.myview.MainActivity">
+
+
+    <com.example.myview.Wodeview
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wode"
+
+        app:lefttext="返回"
+        app:leftbg="#808080"
+        app:leftTextcolor="#8080"
+        app:leftTextsize="20sp"
+
+        app:MiddleText="我是主题"
+        app:Middlebg="#832"
+        app:MideleTextcolor="#8080"
+        app:Middlesize="20sp"
+
+        app:righttext="更多"
+        app:rightbg="#8021"
+        app:rightTextcolor="#8080"
+        app:rightTextsize="20sp"
+       ></com.example.myview.Wodeview>
+
+
+</LinearLayout>

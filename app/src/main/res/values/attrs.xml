@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+       <declare-styleable name="Topbar">
+              <attr name="leftbg" format="color"></attr>
+              <attr name="lefttext" format="string"></attr>
+              <attr name="leftTextsize" format="dimension"></attr>
+              <attr name="leftTextcolor" format="color"></attr>
+
+           <attr name="Middlebg" format="color"></attr>
+           <attr name="MiddleText" format="string"></attr>
+           <attr name="Middlesize" format="dimension"></attr>
+           <attr name="MideleTextcolor" format="color"></attr>
+
+           <attr name="rightbg" format="color"></attr>
+           <attr name="righttext" format="string"></attr>
+           <attr name="rightTextsize" format="dimension"></attr>
+           <attr name="rightTextcolor" format="color"></attr>
+       </declare-styleable>
+</resources>
